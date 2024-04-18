@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+.HomePage {
+    width: 1440px;
+    height: 4434px;
+    position: relative;
+    background: #F3F1F0;
+}
+.EtapasdesarrolloSection {
+    width: 1065px;
+    height: 598px;
+    left: 188px;
+    top: 2980px;
+    position: absolute;
+}
+.H2tituloEtapasdesarrollo {
+    left: 276px;
+    top: 0px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 55px;
+    font-family: Outfit;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.DesarrolloideaTimeline {
+    width: 154px;
+    height: 113px;
+    left: 0px;
+    top: 325px;
+    position: absolute;
+}
+.Line1 .Line2 .Line3 .Line4 .Line5 .Line6 .Line7 {
+    width: 45px;
+    height: 0px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    border: 1px #180E0B solid;
+}
+.Line1 {
+    left: 29px;
+    top: 45px;
+}
+.Line2 {
+    left: 57px;
+    top: 80px;
+}
+.Line3 {
+    left: 33px;
+    top: 45px;
+}
+.Line4 {
+    left: 45px;
+    top: 80px;
+}
+.Line5 {
+    left: 95px;
+    top: 45px;
+}
+.Line6 {
+    left: 77px;
+    top: 80px;
+}
+.Line7 {
+    left: 84px;
+    top: 45px;
+}
+.DesarrolloDeLaIdea .Lanzamiento {
+    left: 0px;
+    top: 53px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.H2tituloNuestroequipo {
+    left: 175px;
+    top: 0px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 55px;
+    font-family: Outfit;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.SubtituloNuestroequipo {
+    left: 126px;
+    top: 125px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.SobreNosotrosButtonNuestroequipo {
+    width: 198px;
+    height: 57px;
+    left: 764px;
+    top: 110px;
+    position: absolute;
+}
+.OrangeButtonNuestroequipo {
+    width: 198px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #F57340;
+    border-radius: 30px;
+}
+.SobrenosotrostextNuestroequipo {
+    width: 176px;
+    height: 22px;
+    left: 11px;
+    top: 13px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.EquipoNuestroequipo {
+    width: 1065px;
+    height: 405px;
+    left: 0px;
+    top: 194px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.FooterSection {
+    width: 1440px;
+    height: 41px;
+    left: 0px;
+    top: 4393px;
+    position: absolute;
+}
+.RectanguloFooter {
+    width: 1440px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #180E0B;
+}
+.TextFooter {
+    left: 1039px;
+    position: absolute;
+}
+.TextFooterStyle {
+    color: white;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}

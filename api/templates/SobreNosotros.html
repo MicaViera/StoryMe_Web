@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre nosotros - StoryMe</title>
+    <meta
+      name="description"
+      content="StoryMe is an Application that ilustrates storys with AI and in this page is more information about us."
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='StoryMe_Style.css') }}"
+    />
+    <script
+      src="https://kit.fontawesome.com/859a341d51.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="HomePage">
+    <img class="Backgroundimage" src="/static/images/Backgroundimage.png" />
+    <!-- Header -->
+    <header>
+      <!-- Nav section -->
+      <nav class="NavSection">
+        <span class="NavRectangle"></span>
+        <ul>
+          <h1 class="Storyme">StoryMe</h1>
+          <a href="/">
+            <div class="SobreNosotrosButtonNav">
+              <li class="SobrenosotrostextNav">StoryMe Website</li>
+            </div></a
+          >
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <header>
+        <h1 class="H2tituloSobrenosotros">Sobre nosotros</h1>
+      </header>
+      <!-- Targetas section -->
+      <section class="Sobrenosotros">
+        <div class="Martin">
+          <span class="Martintargeta"></span>
+          <img
+            class="Martinfoto"
+            src="/static/images/MartinAbreu.jpg"
+            alt="Photography of Martin Abreu."
+          />
+          <div class="Martinicono">
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <h2 class="Martinnombre">Martín Abreu</h2>
+          <h3 class="Martinrol">Project Manager - Full stack Developer</h3>
+          <p class="Martinparrafo">
+            “Látigo.<br />Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Fusce dui sem, pulvinar vitae ex nec, mollis tincidunt leo.
+            Pellentesque accumsan, metus et ornare vehicula, justo nibh cursus
+            dui, eget venenatis est purus in odio.”
+          </p>
+        </div>
+        <div class="Mica">
+          <span class="Micatargeta"></span>
+          <img
+            class="Micafoto"
+            src="/static/images/MicaelaViera.jpg"
+            alt="Photography of Micaela Viera."
+          />
+          <div class="Micaicono">
+            <i class="fa-solid fa-icons"></i>
+          </div>
+          <h2 class="Micanombre">Micaela Viera</h2>
+          <h3 class="Micarol">Frontend Developer -<br />UX/UI Designer</h3>
+          <p class="Micaparrafo">
+            “Estoy muy agradecida con mi equipo por hacerme parte de este
+            proyecto tan ambicioso en el cual se me dió total libertad
+            creativa.<br />Estoy ansiosa por seguir colaborando en el desarrollo
+            para que esta app cumpla su propósito.”
+          </p>
+        </div>
+        <div class="Jose">
+          <span class="Josetargeta"></span>
+          <img
+            class="Josefoto"
+            src="/static/images/JoseMoreno.jpg"
+            alt="Photography of Jose Moreno."
+          />
+          <div class="Joseicono">
+            <i class="fa-solid fa-computer"></i>
+          </div>
+          <h2 class="Josenombre">José Moreno</h2>
+          <h3 class="Joserol">Backend Developer -<br />DevOps - QA</h3>
+          <p class="Joseparrafo">
+            “Cuando me presentaron StoryMe me emocionó el echo de poder trabajar
+            con una Inteligencia Artificial y el reto que ésta representa.
+            <br />No era muy apasionado por el desarrollo móvil hasta que conocí
+            Flutter, con el cual amplié mis conocimientos y me ayudó a tener más
+            afinidad en el desarrollo móvil”
+          </p>
+        </div>
+        <div class="Patri">
+          <span class="Patriciotargeta"></span>
+          <img
+            class="Patriciofoto"
+            src="/static/images/PatricioCoitiño.jpg"
+            alt="Photography of Patricio Coitiño."
+          />
+          <div class="Patricioicono">
+            <i class="fa-solid fa-pen-nib"></i>
+          </div>
+          <h2 class="Patricionombre">Patricio Coitiño</h2>
+          <h3 class="Patriciorol">
+            Full stack Developer -<br />Prompts Engineer
+          </h3>
+          <p class="Patricioparrafo">
+            "StoryMe es una gran idea y me siento orgulloso de desarrollar un
+            proyecto basado en ella. Me uní al equipo por invitación del PM.
+            <br />Espero que llegue a las manos de muchos niños para que puedan
+            aprender a disfrutar de leer libros."
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="FooterSection_SobreNosotros">
+        <div class="RectanguloFooter">
+          <div class="TextFooter">
+            <span class="TextStoryMeFooter">
+              StoryMe Development Team
+              <span class="TextCopyrightFooter">
+                <i class="fa-regular fa-copyright"></i
+              ></span>
+              <span class="TextStoryMeFooter"> 2024 </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

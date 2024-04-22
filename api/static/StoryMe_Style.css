@@ -1,21 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 html {
     scroll-behavior: smooth;
 }
+
 .HomePage {
-    width: 1440px;
-    height: 4434px;
+    width: 100%;
+    height: 100%;
     position: relative;
     background: #F3F1F0;
+    padding: 0px;
 }
-.EtapasdesarrolloSection {
-    width: 1065px;
-    height: 598px;
-    left: 188px;
-    top: 2980px;
+
+.NavSection {
+    width: 100%;
+    height: 97px;
+    position: fixed;
+}
+
+.NavRectangle {
+    width: 100%;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-bottom: 1px #CACACA solid;
+}
+
+.Storyme {
+    width: 165px;
+    height: 28px;
+    left: 4%;
+    top: -5px;
+    position: absolute;
+    color:#180E0B;
+    font-size: 36px;
+    font-family: Darklands;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SobreNosotrosButtonNav {
+    width: 143px;
+    height: 38px;
+    top: 5px;
+    padding: 1%;
+    background: #F57340;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    position: relative;
+    left: 80%;
+    transition: all 0.3s;
+}
+.SobreNosotrosButtonNav:hover {
+    background-color: #012A89;
+    transform: scale(1.1);
+}
+
+.SobrenosotrostextNav {
+    color: white;
+    font-size: 14px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.Equipo {
+    width: 62px;
+    height: 19px;
+    left: 57%;
+    top: 37px;
+    position: absolute;
+    color:#180E0B;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 0px 14%;
+
+}
+
+.Timeline {
+    width: 79px;
+    height: 19px;
+    left: 51%;
+    top: 37px;
+    position: absolute;
+    color:#180E0B;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 0px 12%;
+
+}
+
+.TecnologAs {
+    width: 111px;
+    height: 19px;
+    left: 43%;
+    top: 37px;
+    position: absolute;
+    color:#180E0B;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 0px 9%;
+
+}
+
+.Funcionalidades {
+    width: 153px;
+    height: 19px;
+    left: 32%;
+    top: 37px;
+    position: absolute;
+    color:#180E0B;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 0px 6%;
+
+}
+
+.Enfoque {
+    width: 75px;
+    height: 19px;
+    left: 25%;
+    top: 37px;
+    position: absolute;
+    color:#180E0B;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 0px 5%;
+
+}
+
+.Inicio {
+    width: 52px;
+    height: 19px;
+    left: 20%;
+    top: 37px;
+    position: absolute;
+    color:#180E0B;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 0px 5%;
+
+}
+
+li {
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+    color:#180E0B;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:#180E0B;
+}
+
+.HeroSection {
+    width: 85%;
+    height: 507px;
+    left: 10%;
+    top: 145px;
     position: absolute;
 }
-.H2tituloEtapasdesarrollo {
-    left: 276px;
+
+.H1titulo {
+    width: 60%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 70px;
+    font-family: Outfit;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.SubtituloHerosection {
+    width: 60%;
+    left: 0px;
+    top: 262px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    padding: 1% 0px;
+}
+
+.ParrafoHerosection {
+    width: 60%;
+    left: 2px;
+    top: 344px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Mockup1 {
+    width: 277px;
+    height: 507px;
+    left: 713px;
+    top: 0px;
+    position: relative;
+}
+
+.NuestroenfoqueSection {
+    width: 80%;
+    height: 542px;
+    left: 6%;
+    top: 851px;
+    position: absolute;
+}
+
+.H2tituloNuestroenfoque {
+    left: 396px;
+    top: 12px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 55px;
+    font-family: Outfit;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Mockup2 {
+    width: 303px;
+    height: 542px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.ParrafoNuestroenfoque {
+    width: 706px;
+    left: 398px;
+    top: 107px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Cuartopunto {
+    width: 564px;
+    height: 40px;
+    left: 397px;
+    top: 443px;
+    position: absolute;
+}
+
+.Cuarochecktext {
+    width: 490px;
+    left: 74px;
+    top: 8px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.Cuartocheck,
+.Tercercheck,
+.Segundocheck,
+.Primercheck {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #012A89;
+    font-size: 40px;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.TercerpuntoNuestroequipo {
+    width: 513px;
+    height: 40px;
+    left: 397px;
+    top: 392px;
+    position: absolute;
+}
+
+.Tercerchecktext {
+    width: 439px;
+    left: 74px;
+    top: 8px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.SegundopuntoNuestroequipo {
+    width: 654px;
+    height: 40px;
+    left: 397px;
+    top: 341px;
+    position: absolute;
+}
+
+.Segundochecktext {
+    width: 580px;
+    left: 74px;
+    top: 8px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.PrimerpuntoNuestroenfoque {
+    width: 449px;
+    height: 40px;
+    left: 397px;
+    top: 290px;
+    position: absolute;
+}
+
+.Primerchecktext {
+    width: 375px;
+    left: 74px;
+    top: 8px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.FuncionalidadesSection {
+    width: 80%;
+    height: 531px;
+    left: 9%;
+    top: 1539px;
+    position: absolute;
+}
+
+.H2tituloFuncionalidades {
+    left: 323px;
+    top: -30px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 55px;
+    font-family: Outfit;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.Primertargeta {
+    top: 126px;
+    left: 0px;
+    transition: all 0.3s;
+}
+.Primertargeta:hover {
+    background-color:antiquewhite;
+    transform: scale(1.1);
+}
+
+.BookIcon {
+    left: 124px;
+    top: 33px;
+    position: absolute;
+    color: #012A89;
+    font-size: 64px;
+    font-family: Font Awesome 6 Pro;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.SubtituloPrimertargeta {
+    left: 49px;
+    top: 141px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.MasinfoPrimertargeta {
+    width: 273px;
+    left: 16px;
+    top: 256px;
+    position: absolute;
+    text-align: center;
+    color: #180E0B;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Segundatargeta {
+    top: 126px;
+    left: 376px;
+    transition: all 0.3s;
+}
+.Segundatargeta:hover {
+    background-color:antiquewhite;
+    transform: scale(1.1);
+}
+
+.MicrophoneIcon {
+    left: 128px;
+    top: 33px;
+    position: absolute;
+    color: #78170E;
+    font-size: 64px;
+    font-family: Font Awesome 6 Pro;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SubtituloSegundatargeta {
+    left: 46px;
+    top: 141px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.MasinfoSegundatargeta {
+    width: 271px;
+    left: 17px;
+    top: 256px;
+    position: absolute;
+    text-align: center;
+    color: #180E0B;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Tercertargeta {
+    left: 754px;
+    top: 126px;
+    transition: all 0.3s;
+}
+.Tercertargeta:hover {
+    background-color:antiquewhite;
+    transform: scale(1.1);
+}
+
+.ImageIcon {
+    left: 123px;
+    top: 33px;
+    position: absolute;
+    color: #F57340;
+    font-size: 64px;
+    font-family: Font Awesome 6 Pro;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SubtituloTercertargeta {
+    width: 217px;
+    left: 51px;
+    top: 141px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.MasinfoTercertargeta {
+    width: 273px;
+    left: 18px;
+    top: 256px;
+    position: absolute;
+    text-align: center;
+    color: #180E0B;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Primertargeta,
+.Segundatargeta,
+.Tercertargeta {
+    width: 305px;
+    height: 405px;
+    position: absolute;
+    background: #E1D5B6;
+    box-shadow: 0px 10px 60px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.TecnologAsSection {
+    width: 80%;
+    height: 570px;
+    left: 7%;
+    top: 2255px;
+    position: absolute;
+}
+
+.H2tituloTecnologias {
+    left: 8px;
     top: 0px;
     position: absolute;
     color: #180E0B;
@@ -24,6 +564,202 @@ html {
     font-weight: 600;
     word-wrap: break-word;
 }
+
+.FlutterTecnologAs {
+    width: 197px;
+    height: 197px;
+    left: 0px;
+    top: 142px;
+    position: absolute;
+}
+
+.FlutterLogoTenologias {
+    width: 84px;
+    height: 83px;
+    left: 56px;
+    top: 31px;
+    position: absolute;
+}
+
+.FluttertextTecnologAs {
+    width: 68px;
+    height: 29px;
+    left: 64px;
+    top: 110px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.DartTecnologAs {
+    width: 197px;
+    height: 197px;
+    left: 147px;
+    top: 308px;
+    position: absolute;
+}
+
+.DartLogoTenologias {
+    width: 97px;
+    height: 104px;
+    left: 50px;
+    top: 21px;
+    position: absolute;
+}
+
+.DarttextTecnologAs {
+    width: 47px;
+    height: 29px;
+    left: 75px;
+    top: 110px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.LeonardoTecnologAs {
+    width: 197px;
+    height: 197px;
+    left: 298px;
+    top: 142px;
+    position: absolute;
+}
+
+.LeonardoLogoTenologias {
+    width: 104px;
+    height: 100px;
+    left: 47px;
+    top: 22px;
+    position: absolute;
+}
+
+.LeonardotextTecnologAs {
+    width: 126px;
+    height: 30px;
+    left: 35px;
+    top: 110px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FirebaseTecnologAs {
+    width: 197px;
+    height: 197px;
+    left: 458px;
+    top: 308px;
+    position: absolute;
+}
+
+.FirebaseLogoTenologias {
+    width: 83px;
+    height: 106px;
+    left: 56px;
+    top: 13px;
+    position: absolute;
+}
+
+.FirebasetextTecnologAs {
+    width: 90px;
+    height: 29px;
+    left: 53px;
+    top: 110px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.PythonTecnologAs {
+    width: 197px;
+    height: 197px;
+    left: 612px;
+    top: 142px;
+    position: absolute;
+}
+
+.PythonLogoTenologias {
+    width: 95px;
+    height: 100px;
+    left: 51px;
+    top: 22px;
+    position: absolute;
+}
+
+.PythontextTecnologAs {
+    width: 73px;
+    height: 30px;
+    left: 62px;
+    top: 110px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 23px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.CirculoPythonTecnologAs,
+.CirculoFirebaseTecnologAs,
+.CirculoLeonardoTecnologAs,
+.CirculoDartTecnologAs,
+.CirculoFlutterTecnologAs {
+    width: 197px;
+    height: 197px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 9999px;
+}
+
+.Mockup3 {
+    width: 322px;
+    height: 428px;
+    left: 781px;
+    top: 142px;
+    position: absolute;
+}
+
+.EtapasdesarrolloSection {
+    width: 80%;
+    height: 598px;
+    left: 8%;
+    top: 2980px;
+    position: absolute;
+}
+
+.H2tituloEtapasdesarrollo {
+    left: 260px;
+    top: 0px;
+    position: absolute;
+    color: #180E0B;
+    font-size: 55px;
+    font-family: Outfit;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.TimelineEtapasdesarrollo {
+    width: 1065px;
+    height: 57px;
+    left: 0px;
+    top: 260px;
+    position: absolute;
+}
+
 .DesarrolloideaTimeline {
     width: 154px;
     height: 113px;
@@ -31,20 +767,20 @@ html {
     top: 325px;
     position: absolute;
 }
-.DesarrolloideaTimeline {
-    width: 154px;
-    height: 113px;
-    left: 0px;
-    top: 325px;
-    position: absolute;
+
+.Timeline1Etapasdesarrollo {
+    width: 58px;
+    background: #180E0B;
 }
+
 .Line1 {
     left: 29px;
     top: 45px;
 }
+
 .DesarrolloDeLaIdea {
     left: 0px;
-    top: 53px;
+    top: 30px;
     position: absolute;
     text-align: center;
     color: black;
@@ -54,6 +790,7 @@ html {
     text-transform: uppercase;
     word-wrap: break-word;
 }
+
 .InvestigacionTimeline {
     width: 180px;
     height: 80px;
@@ -61,13 +798,20 @@ html {
     top: 175px;
     position: absolute;
 }
+
+.Timeline2Etapasdesarrollo {
+    width: 159px;
+    background: #E1D5B6;
+}
+
 .Line2 {
     left: 57px;
     top: 80px;
 }
+
 .InvestigaciN {
     left: 0px;
-    top: 0px;
+    top: -20px;
     position: absolute;
     color: black;
     font-size: 24px;
@@ -76,6 +820,7 @@ html {
     text-transform: uppercase;
     word-wrap: break-word;
 }
+
 .DesarrolloTimeline {
     width: 154px;
     height: 83px;
@@ -83,7 +828,165 @@ html {
     top: 325px;
     position: absolute;
 }
-.Line1 .Line2 .Line3 .Line4 .Line5 .Line6 .Line7 {
+
+.Timeline3Etapasdesarrollo {
+    width: 320px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #78170E;
+    border-radius: 30px;
+}
+
+.Line3 {
+    left: 33px;
+    top: 45px;
+}
+
+.Desarrollo {
+    left: 0px;
+    top: 30px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.ValidacionTimeline {
+    width: 143px;
+    height: 80px;
+    left: 350px;
+    top: 175px;
+    position: absolute;
+}
+
+.Timeline4Etapasdesarrollo {
+    width: 480px;
+    background: #F57340;
+}
+
+.Line4 {
+    left: 45px;
+    top: 80px;
+}
+
+.ValidaciN {
+    left: 0px;
+    top: -20px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.MvpTimeline {
+    width: 191px;
+    height: 113px;
+    left: 469px;
+    top: 325px;
+    position: absolute;
+}
+
+.Timeline5Etapasdesarrollo {
+    width: 660px;
+    background: #012A89;
+}
+
+.Line5 {
+    left: 95px;
+    top: 45px;
+}
+
+.MvpEstamosAqu {
+    left: 0px;
+    top: 30px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.NuevasfuncionalidadesTimeline {
+    width: 317px;
+    height: 80px;
+    left: 658px;
+    top: 175px;
+    position: absolute;
+}
+
+.Timeline6Etapasdesarrollo {
+    width: 820px;
+    background: #CACACA;
+}
+
+.Line6 {
+    left: 77px;
+    top: 80px;
+}
+
+.NuevasFuncionalidades {
+    left: 0px;
+    top: -20px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.LanzamientoTimeline {
+    width: 167px;
+    height: 83px;
+    left: 859px;
+    top: 325px;
+    position: absolute;
+}
+
+.Timeline7Etapasdesarrollo {
+    width: 1065px;
+    background: white;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Line7 {
+    left: 84px;
+    top: 45px;
+}
+
+.Lanzamiento {
+    left: 0px;
+    top: 30px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.Line1,
+.Line2,
+.Line3,
+.Line4,
+.Line5,
+.Line6,
+.Line7 {
     width: 45px;
     height: 0px;
     position: absolute;
@@ -91,26 +994,33 @@ html {
     transform-origin: 0 0;
     border: 1px #180E0B solid;
 }
-.Line3 {
-    left: 33px;
-    top: 45px;
+
+.Timeline1Etapasdesarrollo,
+.Timeline2Etapasdesarrollo,
+.Timeline3Etapasdesarrollo,
+.Timeline4Etapasdesarrollo,
+.Timeline5Etapasdesarrollo,
+.Timeline6Etapasdesarrollo,
+.Timeline7Etapasdesarrollo {
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 30px;
 }
-.Line4 {
-    left: 45px;
-    top: 80px;
+
+.ParrafoEtapasdesarrollo {
+    left: 106px;
+    top: 514px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
 }
-.Line5 {
-    left: 95px;
-    top: 45px;
-}
-.Line6 {
-    left: 77px;
-    top: 80px;
-}
-.Line7 {
-    left: 84px;
-    top: 45px;
-}
+
 .DesarrolloDeLaIdea .Lanzamiento {
     left: 0px;
     top: 53px;
@@ -123,6 +1033,15 @@ html {
     text-transform: uppercase;
     word-wrap: break-word;
 }
+
+.NuestroequipoSection {
+    width: 80%;
+    height: 599px;
+    left: 8%;
+    top: 3766px;
+    position: absolute;
+}
+
 .H2tituloNuestroequipo {
     left: 175px;
     top: 0px;
@@ -133,6 +1052,7 @@ html {
     font-weight: 600;
     word-wrap: break-word;
 }
+
 .SubtituloNuestroequipo {
     left: 126px;
     top: 125px;
@@ -144,13 +1064,15 @@ html {
     text-transform: uppercase;
     word-wrap: break-word;
 }
+
 .SobreNosotrosButtonNuestroequipo {
     width: 198px;
     height: 57px;
     left: 764px;
-    top: 110px;
+    top: 120px;
     position: absolute;
 }
+    
 .OrangeButtonNuestroequipo {
     width: 198px;
     height: 57px;
@@ -159,12 +1081,18 @@ html {
     position: absolute;
     background: #F57340;
     border-radius: 30px;
+    transition: all 0.3s;
 }
+.OrangeButtonNuestroequipo:hover {
+    background-color: #012A89;
+    transform: scale(1.1);
+}
+
 .SobrenosotrostextNuestroequipo {
     width: 176px;
     height: 22px;
     left: 11px;
-    top: 13px;
+    top: -5px;
     position: absolute;
     color: white;
     font-size: 20px;
@@ -173,6 +1101,7 @@ html {
     text-transform: uppercase;
     word-wrap: break-word;
 }
+
 .EquipoNuestroequipo {
     width: 1065px;
     height: 405px;
@@ -181,29 +1110,394 @@ html {
     position: absolute;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .FooterSection {
-    width: 1440px;
+    width: 100%;
     height: 41px;
     left: 0px;
     top: 4393px;
     position: absolute;
 }
+
 .RectanguloFooter {
-    width: 1440px;
+    width: 100%;
     height: 41px;
     left: 0px;
     top: 0px;
     position: absolute;
     background: #180E0B;
 }
+
 .TextFooter {
-    left: 1039px;
+    left: 80%;
+    top: 10px;
     position: absolute;
 }
+
 .TextFooterStyle {
     color: white;
     font-size: 12px;
-    font-family: Inter;
+    font-family: Roboto;
     font-weight: 400;
     word-wrap: break-word;
+}
+
+.TextStoryMeFooter {
+    color: white;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TextCopyrightFooter {
+    color: white;
+    font-size: 12px;
+    font-family: Font Awesome 5 Free;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.H2tituloSobrenosotros {
+    left: 8%;
+    top: 154px;
+    position: absolute;
+    text-align: right;
+    color:#F3F1F0;
+    font-size: 58px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.SobreNosotros {
+    height: 90%;
+    width: 100%;
+}
+.Backgroundimage {
+    width: 100%;
+    height: 1405px;
+    left: 0px;
+    top: 10%;
+    position: absolute;
+}
+.Martin {
+    width: 10%;
+    height: 30%;
+    left: 52%;
+    top: 198px;
+    position: absolute;
+}
+.Martinfoto:hover {
+    transform: scale(1.1);
+}
+.Martintargeta {
+    width: 440.99px;
+    height: 339px;
+    left: 144.69px;
+    top: 20px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 8px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+}
+.Martinfoto {
+    width: 190px;
+    height: 285px;
+    left: -10px;
+    top: 18.98px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.Martinparrafo {
+    width: 362.91px;
+    height: 157.73px;
+    left: 206.68px;
+    top: 151.8px;
+    position: absolute;
+    color: #180e0b;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Martinicono {
+    width: 59.3px;
+    height: 47.44px;
+    left: 493.69px;
+    top: 37.95px;
+    position: absolute;
+    color: #f57340;
+    font-size: 40px;
+    font-family: Font Awesome 6 Duotone;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+.Martinrol {
+    width: 222.96px;
+    height: 54.55px;
+    left: 206.68px;
+    top: 87.76px;
+    position: absolute;
+    color: #180e0b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.Martinnombre {
+    width: 196.87px;
+    height: 29.65px;
+    left: 206.68px;
+    top: 45.07px;
+    position: absolute;
+    color: #180e0b;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.Mica {
+    width: 10%;
+    height: 30%;
+    left: 1%;
+    top: 340px;
+    position: absolute;
+}
+.Micatargeta {
+    width: 440.99px;
+    height: 339px;
+    left: 0px;
+    top: 20px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 8px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+}
+.Micafoto:hover {
+    transform: scale(1.1);
+}
+.Micafoto {
+    width: 200px;
+    height: 285px;
+    left: 405.6px;
+    top: 18.98px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.Micaparrafo {
+    width: 362px;
+    height: 174px;
+    left: 19px;
+    top: 157px;
+    position: absolute;
+    text-align: right;
+    color: #180e0b;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Micaicono {
+    width: 49px;
+    height: 47px;
+    left: 44px;
+    top: 43px;
+    position: absolute;
+    color: #012a89;
+    font-size: 40px;
+    font-family: Font Awesome 6 Duotone;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+.Micarol {
+    width: 231px;
+    height: 54px;
+    left: 152px;
+    top: 93px;
+    position: absolute;
+    text-align: right;
+    color: #180e0b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.Micanombre {
+    width: 205px;
+    height: 29px;
+    left: 176px;
+    top: 50px;
+    position: absolute;
+    text-align: right;
+    color: #180e0b;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.Jose {
+    width: 10%;
+    height: 30%;
+    left: 52%;
+    top: 687px;
+    position: absolute;
+}
+.Josetargeta {
+    width: 440.91px;
+    height: 339px;
+    left: 143.77px;
+    top: 20px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 8px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+}
+.Josefoto:hover {
+    transform: scale(1.1);
+}
+.Josefoto {
+    width: 190px;
+    height: 285px;
+    left: -10px;
+    top: 18.41px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.Joseparrafo {
+    width: 363.59px;
+    height: 241.69px;
+    left: 207.14px;
+    top: 147.31px;
+    position: absolute;
+    color: #180e0b;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Joseicono {
+    width: 59.41px;
+    height: 46.04px;
+    left: 494.68px;
+    top: 36.83px;
+    position: absolute;
+    color: #78170e;
+    font-size: 40px;
+    font-family: Font Awesome 6 Duotone;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+.Joserol {
+    width: 223.38px;
+    height: 52.94px;
+    left: 207.14px;
+    top: 85.17px;
+    position: absolute;
+    color: #180e0b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.Josenombre {
+    width: 197.24px;
+    height: 28.77px;
+    left: 207.14px;
+    top: 43.73px;
+    position: absolute;
+    color: #180e0b;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.Patri {
+    width: 10%;
+    height: 30%;
+    left: 1%;
+    top: 822px;
+    position: absolute;
+}
+.Patriciotargeta {
+    width: 440.49px;
+    height: 339px;
+    left: 0px;
+    top: 20px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 8px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+}
+.Patriciofoto:hover {
+    transform: scale(1.1);
+}
+.Patriciofoto {
+    width: 190px;
+    height: 285px;
+    left: 414.57px;
+    top: 18.98px;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.Patricioparrafo {
+    width: 353.29px;
+    height: 174.34px;
+    left: 30.04px;
+    top: 156.55px;
+    position: absolute;
+    text-align: right;
+    color: #180e0b;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.Patricioicono {
+    width: 48.07px;
+    height: 47.44px;
+    left: 54.07px;
+    top: 42.7px;
+    position: absolute;
+    color: #e1d5b6;
+    font-size: 40px;
+    font-family: Font Awesome 6 Duotone;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+.Patriciorol {
+    width: 236.73px;
+    height: 54.55px;
+    left: 149.01px;
+    top: 92.51px;
+    position: absolute;
+    text-align: right;
+    color: #180e0b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.Patricionombre {
+    width: 199.48px;
+    height: 29.65px;
+    left: 183.85px;
+    top: 49.81px;
+    position: absolute;
+    text-align: right;
+    color: #180e0b;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.FooterSection_SobreNosotros {
+    width: 100%;
+    height: 41px;
+    left: 0px;
+    top: 100%;
+    top: 1405px;
+    position: absolute;
 }

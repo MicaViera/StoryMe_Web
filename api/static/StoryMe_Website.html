@@ -2,37 +2,44 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>StoryMe Website</title>
         <meta
             name="description"
             content="StoryMe is an Application that ilustrates storys with AI"
         />
         <link rel="stylesheet" href="StoryMe_Style.css" />
+        <script
+            src="https://kit.fontawesome.com/859a341d51.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body class="HomePage">
         <!-- Header -->
         <header>
-            <nav>
-                <h1 class="story-me">StoryMe</h1>
+            <!-- Nav section -->
+            <nav class="NavSection">
+                <span class="NavRectangle"></span>
                 <ul>
-                    <div class="container-4">
-                        <li class="inicio">Inicio</li>
-                        <li class="enfoque">Enfoque</li>
-                        <li class="funcionalidades">Funcionalidades</li>
-                    </div>
-                    <div class="container-2">
-                        <li class="tecnologas">Tecnologías</li>
-                        <li class="timeline">Timeline</li>
-                        <li class="equipo">Equipo</li>
-                        <div class="sobre-nosotros-button-nav">
-                            <li class="sobre-nosotros-text-nav">
-                                Sobre Nosotros
-                            </li>
-                        </div>
+                    <h1 class="Storyme">StoryMe</h1>
+                    <a href="SobreNosotros.html">
+                        <div class="SobreNosotrosButtonNav">
+                            <li class="SobrenosotrostextNav">Sobre Nosotros</li>
+                        </div></a
+                    >
+                    <div class="LinksNav">
+                        <li class="Equipo"><a href="#Equipo">Equipo</a></li>
+                        <li class="Timeline">
+                            <a href="#Timeline">Timeline</a>
+                        </li>
+                        <li class="TecnologAs">
+                            <a href="#Tecnologías">Tecnologías</a>
+                        </li>
+                        <li class="Funcionalidades">
+                            <a href="#Funcionalidades">Funcionalidades</a>
+                        </li>
+                        <li class="Enfoque"><a href="#Enfoque">Enfoque</a></li>
+                        <li class="Inicio"><a href="#Inicio">Inicio</a></li>
                     </div>
                 </ul>
             </nav>
@@ -40,240 +47,287 @@
         <!-- Main -->
         <main>
             <!-- Hero section -->
-            <section class="hero-section">
-                <div class="container-7">
-                    <h2 class="h-1-titulo">
-                        Prepárate para una nueva aventura!
-                    </h2>
-                    <p class="subtitulo-hero-section">
-                        La app que fomenta la lectura en los más pequeños
-                        mediante la tecnología.
-                    </p>
-                    <p class="parrafo-hero-section">
-                        Nuestra aplicación se centra en la reproducción de
-                        cuentos con ilustraciones únicas generadas con
-                        Inteligencia Artificial que hacen de cada lectura una
-                        nueva experiencia.
-                    </p>
-                </div>
-                <div class="mockup-1">
-                    <img
-                        src="images/Mockup_0 .png"
-                        alt="Mockup of a smartphone showing the loading screen of the App."
-                    />
-                </div>
+            <section class="HeroSection" id="Inicio">
+                <h1 class="H1titulo">Prepárate para una nueva aventura!</h1>
+                <p class="SubtituloHerosection">
+                    La app que fomenta la lectura en los más pequeños mediante
+                    la tecnología.
+                </p>
+                <p class="ParrafoHerosection">
+                    Nuestra aplicación se centra en la reproducción de cuentos
+                    con ilustraciones únicas generadas con Inteligencia
+                    Artificial que hacen de cada lectura una nueva experiencia.
+                </p>
+                <img
+                    class="Mockup1"
+                    src="images/Mockup_0 .png"
+                    alt="Mockup of a smartphone showing the loading screen of the App."
+                />
             </section>
             <!-- Nuevo enfoque section -->
-            <section class="nuestro-enfoque-section">
-                <div class="mockup-2">
+            <section class="NuestroenfoqueSection" id="Enfoque">
+                <div>
                     <img
+                        class="Mockup2"
                         src="images/Mockup_1.png"
                         alt="Mockup of a smartphone showing the style selector screen of the App."
                     />
                 </div>
-                <div class="container-6">
-                    <h2 class="h-2-titulo-nuestro-enfoque">Nuestro enfoque</h2>
-                    <p class="parrafo-nuestro-enfoque">
+                <div>
+                    <h2 class="H2tituloNuestroenfoque">Nuestro enfoque</h2>
+                    <p class="ParrafoNuestroenfoque">
                         StoryMe surge como solución a la problemática que se
                         vive en las nuevas generaciones gracias a la falta de
-                        lectura en los más jóvenes. Con nuestra app ayudamos a
-                        fomentar este hábito de la mano de nuevas tecnología
-                        para una propuesta innovadora y atractiva.
+                        lectura en los más jóvenes.
+                        <br />Con nuestra app ayudamos a fomentar este hábito de
+                        la mano de nuevas tecnología para una propuesta
+                        innovadora y atractiva.
                     </p>
-                    <ul>
-                        <li>Incentiva la lectura</li>
-                        <li>Fomenta un desarrollo temprano del habla</li>
-                        <li>Atractivo para los más jóvenes</li>
-                        <li>Estimula la imaginación y creatividad</li>
-                    </ul>
                 </div>
+                <ul>
+                    <div class="Cuartopunto">
+                        <div class="Cuartocheck">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <li class="Cuarochecktext">
+                            Estimula la imaginación y creatividad
+                        </li>
+                    </div>
+                    <div class="TercerpuntoNuestroequipo">
+                        <li class="Tercerchecktext">
+                            Atractivo para los más jóvenes
+                        </li>
+                        <div class="Tercercheck">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="SegundopuntoNuestroequipo">
+                        <li class="Segundochecktext">
+                            Fomenta un desarrollo temprano del habla
+                        </li>
+                        <div class="Segundocheck">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="PrimerpuntoNuestroenfoque">
+                        <li class="Primerchecktext">Incentiva la lectura</li>
+                        <div class="Primercheck">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </div>
+                </ul>
             </section>
             <!-- Funcionalidades section -->
-            <section>
+            <section class="FuncionalidadesSection" id="Funcionalidades">
                 <header>
-                    <h2>Funcionalidades</h2>
+                    <h2 class="H2tituloFuncionalidades">Funcionalidades</h2>
                 </header>
                 <div>
-                    <ul>
-                        <li>
-                            <div>
-                                <h3>Book</h3>
-                                <p>
-                                    Elección de estilo para las imágenes
-                                    generadas por la IA
-                                </p>
-                                <p>
-                                    Un abanico de opciones de estilo para las
-                                    ilustraciones generadas exclusivamente para
-                                    esa única reproducción.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>Microphone</h3>
-                                <p>
-                                    Implementación de texto a voz en el
-                                    reproductor
-                                </p>
-                                <p>
-                                    Puedes elegir si activar la opción de
-                                    narrador para que te cuente tu historia por
-                                    ti.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h3>Image</h3>
-                                <p>
-                                    Galería de libros y cuentos actualizada
-                                    dinámicamente
-                                </p>
-                                <p>
-                                    La galería de libros se renueva de forma
-                                    automática para que tengas más de donde
-                                    elegir.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="Tercertargeta">
+                        <div class="Tercerrectangulo">
+                            <span class="ImageIcon">
+                                <i class="fa-solid fa-image"></i>
+                            </span>
+                            <p class="SubtituloTercertargeta">
+                                Galería de libros, cuentos actualizada
+                                <br />dinámicamente
+                            </p>
+                            <p class="MasinfoTercertargeta">
+                                La galería de libros se renueva de forma
+                                automática para que tengas más de donde elegir.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Segundatargeta">
+                        <div class="Segundorectangulo"></div>
+                        <span class="MicrophoneIcon">
+                            <i class="fa-solid fa-microphone"></i>
+                        </span>
+                        <p class="SubtituloSegundatargeta">
+                            Implementación de
+                            <br />texto a voz en el <br />reproductor
+                        </p>
+                        <p class="MasinfoSegundatargeta">
+                            Puedes elegir si activar la opción de narrador para
+                            que te cuente tu historia por ti.
+                        </p>
+                    </div>
+                    <div class="Primertargeta">
+                        <div class="Primerrectangulo"></div>
+                        <span class="BookIcon">
+                            <i class="fa-solid fa-book"></i>
+                        </span>
+                        <p class="SubtituloPrimertargeta">
+                            Elección de estilo
+                            <br />para las imágenes <br />generadas por la IA
+                        </p>
+                        <p class="MasinfoPrimertargeta">
+                            Un abanico de opciones de estilo para las
+                            ilustraciones generadas exclusivamente para esa
+                            única reproducción.
+                        </p>
+                    </div>
                 </div>
             </section>
             <!-- Tecnologías utilzadas section -->
-            <section>
+            <section class="TecnologAsSection" id="Tecnologías">
                 <header>
-                    <h2>Tecnologías utilizadas</h2>
+                    <h2 class="H2tituloTecnologias">Tecnologías utilizadas</h2>
                 </header>
                 <div>
-                    <div>
-                        <img src="images/Flutter.png" alt="Flutter logo." />
-                        <h4>Flutter</h4>
-                    </div>
-                    <div>
-                        <img src="images/Dart.png" alt="Dart logo." />
-                        <h4>Dart</h4>
-                    </div>
-                    <div>
+                    <div class="FlutterTecnologAs">
+                        <span class="CirculoFlutterTecnologAs"></span>
+                        <p class="FluttertextTecnologAs">Flutter</p>
                         <img
+                            class="FlutterLogoTenologias"
+                            src="images/Flutter.png"
+                            alt="Flutter logo."
+                        />
+                    </div>
+                    <div class="DartTecnologAs">
+                        <span class="CirculoDartTecnologAs"></span>
+                        <p class="DarttextTecnologAs">Dart</p>
+                        <img
+                            class="DartLogoTenologias"
+                            src="images/Dart.png"
+                            alt="Dart logo."
+                        />
+                    </div>
+                    <div class="LeonardoTecnologAs">
+                        <span class="CirculoLeonardoTecnologAs"></span>
+                        <p class="LeonardotextTecnologAs">Leonardo AI</p>
+                        <img
+                            class="LeonardoLogoTenologias"
                             src="images/LeonardoAI.png"
                             alt="LeonardoAI logo."
                         />
-                        <h4>Leonardo AI</h4>
                     </div>
-                    <div>
-                        <img src="images/Firebase.png" alt="Firebase logo." />
-                        <h4>Firebase</h4>
-                    </div>
-                    <div>
-                        <img src="images/Python.png" alt="Python logo." />
-                        <h4>Python</h4>
-                    </div>
-                    <div>
+                    <div class="FirebaseTecnologAs">
+                        <span class="CirculoFirebaseTecnologAs"></span>
+                        <p class="FirebasetextTecnologAs">Firebase</p>
                         <img
-                            src="images/Mockup_2.png"
-                            alt="Mockup of a smartphone showing the reproction screen of the App."
+                            class="FirebaseLogoTenologias"
+                            src="images/Firebase.png"
+                            alt="Firebase logo."
+                        />
+                    </div>
+                    <div class="PythonTecnologAs">
+                        <span class="CirculoPythonTecnologAs"></span>
+                        <p class="PythontextTecnologAs">Python</p>
+                        <img
+                            class="PythonLogoTenologias"
+                            src="images/Python.png"
+                            alt="Python logo."
                         />
                     </div>
                 </div>
+                <img
+                    class="Mockup3"
+                    src="images/Mockup_2.png"
+                    alt="Mockup of a smartphone showing the reproction screen of the App."
+                />
             </section>
             <!-- Etapas de desarrollo section -->
-            <section class="EtapasdesarrolloSection">
+            <section class="EtapasdesarrolloSection" id="Timeline">
                 <header>
-                    <h2 class="H2tituloEtapasdesarrollo">Etapas de desarrollo</h2>
+                    <h2 class="H2tituloEtapasdesarrollo">
+                        Etapas de desarrollo
+                    </h2>
                 </header>
+                <div class="TimelineEtapasdesarrollo">
+                    <span class="Timeline7Etapasdesarrollo"></span>
+                    <span class="Timeline6Etapasdesarrollo"></span>
+                    <span class="Timeline5Etapasdesarrollo"></span>
+                    <span class="Timeline4Etapasdesarrollo"></span>
+                    <span class="Timeline3Etapasdesarrollo"></span>
+                    <span class="Timeline2Etapasdesarrollo"></span>
+                    <span class="Timeline1Etapasdesarrollo"></span>
+                </div>
                 <div>
                     <div class="DesarrolloideaTimeline">
-                        <div class="Line1"></div>
+                        <span class="Line1"></span>
                         <p class="DesarrolloDeLaIdea">
-                            Desarrollo<br/>de la idea
+                            Desarrollo
+                            <br />de la idea
                         </p>
                     </div>
                     <div class="InvestigacionTimeline">
-                        <div class="Line2"></div>
-                        <p class="InvestigaciN">
-                            Investigación
-                        </p>
+                        <span class="Line2"></span>
+                        <p class="InvestigaciN">Investigación</p>
                     </div>
                     <div class="DesarrolloTimeline">
-                        <div class="Line3"></div>
-                        <p class="Desarrollo">
-                            Desarrollo
-                        </p>
+                        <span class="Line3"></span>
+                        <p class="Desarrollo">Desarrollo</p>
                     </div>
                     <div class="ValidacionTimeline">
-                        <div class="Line4"></div>
-                        <p class="ValidaciN">
-                            Validación
-                        </p>
+                        <span class="Line4"></span>
+                        <p class="ValidaciN">Validación</p>
                     </div>
                     <div class="MvpTimeline">
-                        <div class="Line5"></div>
+                        <span class="Line5"></span>
                         <p class="MvpEstamosAqu">
-                            MVP<br/>(Estamos aquí)
+                            MVP
+                            <br />
+                            (Estamos aquí)
                         </p>
                     </div>
                     <div class="NuevasfuncionalidadesTimeline">
-                        <div class="Line6"></div>
+                        <span class="Line6"></span>
                         <p class="NuevasFuncionalidades">
                             Nuevas funcionalidades
                         </p>
                     </div>
                     <div class="LanzamientoTimeline">
-                        <div class="Line7"></div>
-                        <p class="Lanzamiento">
-                            Lanzamiento
-                        </p>
+                        <span class="Line7"></span>
+                        <p class="Lanzamiento">Lanzamiento</p>
                     </div>
                 </div>
-                <div>
-                    <p class="ParrafoEtapasdesarrollo">
-                        Dentro de las nuevas funcionalidades que estamos
-                        desarrollando se encuentran la elección de idiomas para
-                        los cuentos y la descarga de cuentos para reproducir
-                        offline entre otras.
-                    </p>
-                </div>
+                <p class="ParrafoEtapasdesarrollo">
+                    Dentro de las nuevas funcionalidades que estamos
+                    desarrollando se encuentran
+                    <br />la elección de idiomas para los cuentos y la descarga
+                    de cuentos para reproducir <br />offline entre otras.
+                </p>
             </section>
             <!-- Sobre nosotros section -->
-            <section class="NuestroequipoSection">
-                <div>
-                    <header>
-                        <h2 class="H2tituloNuestroequipo">
-                            Nuestro equipo de desarrollo
-                        </h2>
-                    </header>
-                    <div>
-                        <p class="SubtituloNuestroequipo">
-                            Te invitamos a conocer a cada miembro del equipo
+            <section class="NuestroequipoSection" id="Equipo">
+                <header>
+                    <h2 class="H2tituloNuestroequipo">
+                        Nuestro equipo de desarrollo
+                    </h2>
+                    <p class="SubtituloNuestroequipo">
+                        Te invitamos a conocer a cada miembro del equipo
+                    </p>
+                </header>
+                <a href="SobreNosotros.html">
+                    <div class="SobreNosotrosButtonNuestroequipo">
+                        <span class="OrangeButtonNuestroequipo"></span>
+                        <p class="SobrenosotrostextNuestroequipo">
+                            Sobre Nosotros
                         </p>
-                        <div class="SobreNosotrosButtonNuestroequipo">
-                            <div class="OrangeButtonNuestroequipo">
-                                <a
-                                    href="#"
-                                    class="SobrenosotrostextNuestroequipo"
-                                    >Sobre Nosotros</a
-                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img
-                            class="EquipoNuestroequipo"
-                            src="images/NuestroEquipo.jpg"
-                            alt="Photography of the Team of Developers"
-                        />
-                    </div>
-                </div>
+                    </div></a
+                >
+
+                <img
+                    class="EquipoNuestroequipo"
+                    src="images/NuestroEquipo.jpg"
+                    alt="Photography of the Team of Developers"
+                />
             </section>
         </main>
         <!-- Footer -->
-        <footer class="FooterSection">
-            <div class="RectanguloFooter">
-                <div class="TextFooter">
-                    <h5 class="TextFooterStyle">
-                        &copy; 2024 StoryMe Development Team
-                    </h5>
+        <footer>
+            <div class="FooterSection">
+                <div class="RectanguloFooter">
+                    <div class="TextFooter">
+                        <span class="TextStoryMeFooter">
+                            StoryMe Development Team
+                            <span class="TextCopyrightFooter">
+                                <i class="fa-regular fa-copyright"></i
+                            ></span>
+                            <span class="TextStoryMeFooter"> 2024 </span>
+                        </span>
+                    </div>
                 </div>
             </div>
         </footer>
